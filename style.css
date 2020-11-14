@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+.lokesFace {
+  background-image: url("isak.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Corben", cursive;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #dfe0e2;
+  text-shadow: 0.1em 0.1em #071013;
+}
